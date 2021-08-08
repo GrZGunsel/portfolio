@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  font-family: "poppins";
+  padding: 0;
+}
+.bold {
+  font-weight: 700;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to right bottom,
+    #42bbd4,
+    rgba(66, 110, 212, 29%)
+  );
+}
+
+#glass {
+  display: flex;
+  min-height: 80vh;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(1rem);
+  width: 70%;
+  z-index: 2;
+  border-radius: 24px;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+  height: 260px;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  width: 260px;
+  border-radius: 50%;
+
+  position: absolute;
+}
+
+.circle1 {
+  top: 2%;
+  right: 9%;
+}
+.circle3 {
+  position: absolute;
+
+  bottom: 2%;
+  right: 9%;
+  height: 260px;
+  width: 260px;
+}
+
+.circle2 {
+  bottom: 2%;
+  left: 9%;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  border-radius: 24px 0px 0px 24px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+}
+.dashboard .user {
+  display: flex;
+  margin: 2rem 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard .user h1 {
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.dashboard .user ul > li {
+  font-size: 13px;
+}
+.dashboard .links .link {
+  display: flex;
+  align-items: center;
+}
+.dashboard .user .avatar {
+  width: 127px;
+  height: 127px;
+  border-radius: 50%;
+  background-image: url("https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.links {
+  width: 96%;
+  padding-left: 10px;
+}
+.link {
+  display: flex;
+  cursor: pointer;
+  margin: 1rem 0rem;
+  padding: 10px 5rem;
+  border-radius: 18px 0px 0px 18px;
+  align-items: center;
+}
+
+.links .active {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.72) 0%,
+    rgba(255, 255, 255, 0.19) 100%
+  );
+  backdrop-filter: blur(110px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.links :hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.72) 0%,
+    rgba(255, 255, 255, 0.19) 100%
+  );
+  backdrop-filter: blur(110px);
+  /* Note: backdrop-filter has minimal browser support */
+  transition: ease-in 3s;
+}
+.link svg {
+  padding: 0rem 1rem;
+  font-size: 14px;
+}
+
+.dashboard .noticeBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  margin: 2rem;
+  background: linear-gradient(
+    109.69deg,
+    rgba(66, 187, 212, 0.86) 28.87%,
+    rgba(66, 110, 212, 0.1634) 100%
+  );
+  box-sizing: border-box;
+  backdrop-filter: blur(120px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 24px;
+}
+
+.dashboard .noticeBoard p {
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+.maincontent {
+  flex: 3;
+  padding: 2rem;
+}
+
+.maincontent .title {
+  font-size: 20px;
+  font-weight: bold;
+  background: linear-gradient(
+    109.69deg,
+    rgb(66, 188, 212) 28.87%,
+    rgba(66, 110, 212, 0.75) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Educationsector {
+  display: flex;
+  margin: 4rem 0;
+}
+.Educationsector .Institutions {
+  flex: 4;
+}
+.Educationsector .image {
+  flex: 2;
+}
+.Educationsector .Institutions > h1 {
+  font-size: 18px;
+}
+
+.Educationsector .Institutions > h2 {
+  font-weight: 500;
+  font-size: 15px;
+}
+.Educationsector .Institutions p > span {
+  font-weight: 400;
+  margin-left: 4px;
+}
+.Educationsector .Institutions > p {
+  font-size: 14px;
+}
