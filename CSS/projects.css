@@ -1,0 +1,9 @@
+.projecthead > h1 {
+  font-size: 16px;
+  margin: 2% 0%;
+}
+
+.projects .card img {
+  width: 224px;
+  height: 132px;
+}

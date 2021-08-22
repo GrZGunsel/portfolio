@@ -1,0 +1,67 @@
+.maincontent .abtmehead > h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2% 0%;
+}
+
+.maincontent .abtmehead > p {
+  font-size: 13px;
+}
+
+.maincontent .BtnCV {
+  margin: 2% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  font-size: 14px;
+  height: 30px;
+  color: #42bbd4;
+  border: none;
+  outline: none;
+  background: linear-gradient(
+    92.34deg,
+    #ffffff 0.33%,
+    rgba(255, 255, 255, 0.43) 93.25%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: drop-shadow(5px 3px 12px rgba(255, 255, 255, 0.2));
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+}
+
+.maincontent .BtnCV > svg {
+  margin-right: 5px;
+}
+
+.Interesthead > h1 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 2% 0%;
+}
+
+.interestedin img {
+  margin-right: 4%;
+}
+
+.contacthead > h1 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 2% 0%;
+}
+
+.contact a {
+  margin-right: 2%;
+  outline: none;
+  text-decoration: none;
+}
+
+.contact abbr {
+  cursor: pointer;
+}
+
+.contact abbr:hover {
+  opacity: 80%;
+}

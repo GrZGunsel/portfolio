@@ -4,15 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple portfolio</title>
-    <link rel="stylesheet" href="./CSS/index.css" />
-    <link rel="stylesheet" href="./CSS/laoder.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/aboutme.css" />
   </head>
+
   <body>
-    <div class="loader">
-      <h1>KM</h1>
-      <p>“Believe in yourself”</p>
-    </div>
     <main>
       <section id="glass">
         <div class="user_dashboard">
@@ -25,7 +22,7 @@
             </ul>
           </div>
           <div class="links">
-            <a href="" class="link active">
+            <a href="../index.html" class="link">
               <svg
                 width="111"
                 height="30"
@@ -61,7 +58,7 @@
                 </defs>
               </svg>
             </a>
-            <a href="./Html/Skill.html" class="link">
+            <a href="./Skill.html" class="link">
               <svg
                 width="62"
                 height="28"
@@ -93,7 +90,7 @@
                 </defs>
               </svg>
             </a>
-            <a href="./Html/Projects.html" class="link">
+            <a href="" class="link">
               <svg
                 width="92"
                 height="28"
@@ -125,8 +122,7 @@
                 </defs>
               </svg>
             </a>
-
-            <a href="./Html/Aboutme.html" class="link">
+            <a href="../Html/Aboutme.html" class="link active">
               <svg
                 width="106"
                 height="28"
@@ -237,42 +233,100 @@
         </div>
         <div class="maincontent">
           <div class="title">
-            <h1>Education</h1>
+            <h1>About Me</h1>
           </div>
-          <div class="Educationsector">
-            <div class="Institutions">
-              <h1>B.Sc. IT Computing (Hons.)</h1>
-              <h2>
-                Islington College Kathmandu, London Metropolitan University
-              </h2>
-              <p>2018 - Present</p>
-            </div>
-            <div class="image">
-              <img
-                src="./image/London-Met-logo-PNG-e1620110871912 1.png"
-                alt=""
-              />
-            </div>
+          <div class="abtmehead">
+            <h1>Introduction</h1>
+            <p>
+              An enthusiastic individual seeking for the position React JS
+              developer in a reputed company, eager to learn and utilize my
+              skill for the welfare of the organization
+            </p>
+            <button class="BtnCV">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_b)">
+                  <path
+                    d="M15.0223 5.0748C15.1277 5.18027 15.1875 5.32266 15.1875 5.47207V16.3125C15.1875 16.6236 14.9361 16.875 14.625 16.875H3.375C3.06387 16.875 2.8125 16.6236 2.8125 16.3125V1.6875C2.8125 1.37637 3.06387 1.125 3.375 1.125H10.8404C10.9898 1.125 11.134 1.18477 11.2395 1.29023L15.0223 5.0748ZM13.8902 5.73047L10.582 2.42227V5.73047H13.8902ZM11.1308 11.2018C10.864 11.193 10.5803 11.2136 10.2581 11.2539C9.83092 10.9904 9.54334 10.6284 9.33908 10.0967L9.35789 10.0197L9.37969 9.92865C9.45527 9.60996 9.49588 9.3774 9.50801 9.14291C9.51715 8.9659 9.5073 8.8026 9.47584 8.65125C9.41783 8.32447 9.18668 8.1334 8.89541 8.12162C8.62383 8.11055 8.37422 8.26225 8.31041 8.49727C8.20652 8.8773 8.26734 9.3774 8.4876 10.2303C8.20705 10.8991 7.83633 11.6833 7.5876 12.1206C7.25555 12.2919 6.99697 12.4476 6.77971 12.6202C6.49318 12.8482 6.31424 13.0825 6.26502 13.3286C6.24111 13.4427 6.27715 13.5918 6.35924 13.7139C6.4524 13.8524 6.59268 13.9424 6.7609 13.9554C7.18541 13.9883 7.70713 13.5506 8.28316 12.5622C8.341 12.5429 8.40217 12.5225 8.47687 12.4972L8.68606 12.4265C8.81842 12.3819 8.91439 12.3499 9.00932 12.3191C9.42065 12.1852 9.73178 12.1006 10.0148 12.0524C10.5066 12.3158 11.0751 12.4884 11.4579 12.4884C11.774 12.4884 11.9876 12.3246 12.0647 12.0667C12.1324 11.8403 12.0788 11.5777 11.9333 11.4325C11.7828 11.2846 11.5061 11.214 11.1308 11.2018ZM6.77162 13.4592V13.4529L6.77391 13.4469C6.79963 13.3804 6.83264 13.317 6.87234 13.2578C6.94758 13.1421 7.05111 13.0205 7.17943 12.8909C7.24834 12.8215 7.32006 12.7538 7.40426 12.6779C7.42307 12.661 7.5433 12.5539 7.5658 12.5329L7.76215 12.35L7.61941 12.5773C7.40285 12.9226 7.20703 13.1711 7.03934 13.3332C6.97764 13.3929 6.92332 13.4369 6.87937 13.4652C6.86487 13.4749 6.84951 13.4832 6.8335 13.4902C6.82629 13.4931 6.81996 13.4949 6.81363 13.4954C6.80695 13.4963 6.80017 13.4954 6.79395 13.4928C6.78733 13.49 6.78168 13.4854 6.77771 13.4794C6.77374 13.4734 6.77162 13.4664 6.77162 13.4592ZM8.98541 9.62227L8.94568 9.69258L8.92107 9.61559C8.86658 9.44279 8.8265 9.18246 8.81543 8.94762C8.80277 8.68043 8.82404 8.52012 8.90842 8.52012C9.02689 8.52012 9.08121 8.70996 9.08543 8.99561C9.0893 9.24662 9.04975 9.50783 8.98523 9.62227H8.98541ZM8.88328 10.6499L8.91018 10.5787L8.94691 10.6455C9.1524 11.0188 9.41906 11.3303 9.71227 11.5474L9.77555 11.5942L9.69838 11.61C9.41133 11.6694 9.14397 11.7587 8.77834 11.9062C8.81648 11.8907 8.3983 12.0619 8.29248 12.1025L8.2002 12.1379L8.24941 12.0521C8.4665 11.6742 8.66707 11.2203 8.88311 10.6499H8.88328ZM11.6539 11.9904C11.5158 12.0449 11.2184 11.9962 10.6947 11.7726L10.5618 11.716L10.706 11.7054C11.1155 11.675 11.4056 11.6975 11.5747 11.7594C11.6467 11.7858 11.6947 11.819 11.716 11.857C11.7272 11.8749 11.731 11.8966 11.7265 11.9173C11.722 11.938 11.7097 11.9561 11.6921 11.9679C11.6809 11.9777 11.668 11.9854 11.6539 11.9904Z"
+                    fill="url(#paint0_linear)"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_b"
+                    x="-100"
+                    y="-100"
+                    width="218"
+                    height="218"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feGaussianBlur in="BackgroundImage" stdDeviation="50" />
+                    <feComposite
+                      in2="SourceAlpha"
+                      operator="in"
+                      result="effect1_backgroundBlur"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_backgroundBlur"
+                      result="shape"
+                    />
+                  </filter>
+                  <linearGradient
+                    id="paint0_linear"
+                    x1="9"
+                    y1="1.125"
+                    x2="9"
+                    y2="16.875"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#42BBD4" />
+                    <stop offset="1" stop-color="#426ED4" stop-opacity="0.26" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              Download CV
+            </button>
           </div>
-          <div class="Educationsector">
-            <div class="Institutions">
-              <h1>+2 Degree</h1>
-              <h2>Dayananda Anglo Vedic (DAV)</h2>
-              <p>2016 - 2018 AD</p>
-              <p class="bold">GPA: <span>2.90</span></p>
+          <div class="interestedin">
+            <div class="Interesthead">
+              <h1>interested in</h1>
             </div>
-            <div class="image">
-              <img src="./image/download 1.png" alt="" />
-            </div>
+            <img src="../image/Group 6.png" alt="" />
+            <img src="../image/Group 7.png" alt="" />
+            <img src="../image/Group 8.png" alt="" />
+            <img src="../image/Group 9.png" alt="" />
+            <img src="../image/Group 10.png" alt="" />
           </div>
-          <div class="Educationsector">
-            <div class="Institutions">
-              <h1>School Leaving Certificate</h1>
-              <h2>Aster Academy</h2>
-              <p>2003 - 2016 AD</p>
-              <p class="bold">GPA: <span>3.40</span></p>
+          <div class="contact">
+            <div class="contacthead">
+              <h1>contact me at</h1>
             </div>
-            <div class="image"></div>
+            <a href="https://www.facebook.com/kshitiz.m.tamang/">
+              <img src="../image/akar-icons_facebook-fill.png" alt="" />
+            </a>
+            <a href="https://github.com/GrZGunsel">
+              <img src="../image/akar-icons_github-fill.png" alt="" />
+            </a>
+            <a href="https://www.instagram.com/grz_gunsel/">
+              <img src="../image/akar-icons_instagram-fill.png" alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kshitiz-moktan-tamang-920bb4218/"
+            >
+              <img src="../image/ant-design_linkedin-filled.png" alt="" />
+            </a>
+            <abbr title="9808502475">
+              <img src="../image/carbon_phone-voice-filled.png" alt="" />
+            </abbr>
           </div>
         </div>
       </section>
@@ -280,6 +334,5 @@
     <div class="circle1"></div>
     <div class="circle2"></div>
     <div class="circle3"></div>
-    <script src="./JS/Home.js"></script>
   </body>
 </html>
